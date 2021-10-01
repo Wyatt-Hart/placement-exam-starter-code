@@ -26,7 +26,7 @@ let serializedSugar = parseInt(localStorage.getItem('sugar'))
 let serializedCt = parseInt(localStorage.getItem('ct'))
 
 if( serializedGb > 0 || serializedCc > 0 || serializedSugar > 0){
-    let resume = window.prompt('It looks like you still deciding on what cookies you wanted, would you like to pickup where you left off? \n\r [Y] - [N]');
+    let resume = window.prompt('It looks like you were still deciding on what cookies you wanted, would you like to pickup where you left off? \n\r [Y] - [N]');
     if(resume == 'Y'){
         window.alert("OK, please let us know what else you'd like!")
     }else if (resume == 'N'){
